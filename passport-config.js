@@ -3,6 +3,7 @@ const localStrategy = require("passport-local").Strategy;
 const bcrypt = require("bcrypt");
 
 // import User model from Mongo DB schema
+const User = require("../models/User");
 
 passport.use(
   new localStrategy({ usernameField: "email" }),
