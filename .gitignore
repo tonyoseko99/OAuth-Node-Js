@@ -4,3 +4,6 @@ node_modules
 #  ignore .git
 .git
 
+#  ignore .env
+.env
+
